@@ -50,7 +50,7 @@ const eqObjects = (object1, object2) => {
     if (!(Array.isArray(object1[key]))) {
 
       if (!(object1[key] === object2[key])) {
-  
+
         return false;
   
       }
@@ -71,7 +71,6 @@ const eqObjects = (object1, object2) => {
   return true;
 
 };
-
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
