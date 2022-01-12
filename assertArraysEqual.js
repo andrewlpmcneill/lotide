@@ -34,4 +34,3 @@ const assertArraysEqual = (array1, array2) => {
   }
 
 };
-
