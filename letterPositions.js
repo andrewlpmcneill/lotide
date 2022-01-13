@@ -42,15 +42,11 @@ const letterPositions = sentence => {
   for (let i = 0; i < sentence.length; i++) {
 
     if (results[sentence[i]] && sentence[i] !== ' ') {
-
       results[sentence[i]].push(i);
-
-    } else if (sentence[i] !== ' ') {
-
-      results[sentence[i]] = [i];
-
+      continue;
     }
-
+    results[sentence[i]] = [i];
+  
   }
 
   return results;
@@ -58,6 +54,6 @@ const letterPositions = sentence => {
 };
 
 assertArraysEqual(letterPositions('hello').h, [0]);
-assertArraysEqual(letterPositions('hello').e, [1]);
+assertArraysEqual(letterPositions('hello test').e, [1, 7]);
 assertArraysEqual(letterPositions('hello').l, [2, 3]);
 assertArraysEqual(letterPositions('hello').o, [4]);
