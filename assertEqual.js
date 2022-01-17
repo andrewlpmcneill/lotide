@@ -12,5 +12,5 @@ const assertEqual = (actual, expected) => {
 
 };
 
-assertEqual("Lighthouse Labs", "LighthousE Labs");
-assertEqual(1, 1);
+
+module.exports = assertEqual;
