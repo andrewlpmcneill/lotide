@@ -57,3 +57,5 @@ assertArraysEqual(letterPositions('hello').h, [0]);
 assertArraysEqual(letterPositions('hello test').e, [1, 7]);
 assertArraysEqual(letterPositions('hello').l, [2, 3]);
 assertArraysEqual(letterPositions('hello').o, [4]);
+
+module.exports = letterPositions;

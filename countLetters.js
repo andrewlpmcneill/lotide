@@ -18,3 +18,5 @@ const countLetters = string => {
   return counts;
 
 };
+
+module.exports = countLetters;

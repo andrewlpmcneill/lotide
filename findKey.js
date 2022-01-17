@@ -38,3 +38,5 @@ const data = {
 assertEqual(findKey(data, x => x === 2), 'noma');
 assertEqual(findKey(data, x => x === 3), 'Akaleri');
 assertEqual(findKey(data, x => x === 1), 'Blue Hill');
+
+module.exports = findKey;

@@ -52,3 +52,5 @@ const words = ["I", "may", "be", "paranoid", "but", "not", "an", "android"];
 // const results1 = map(words, word => word[0]);
 
 assertArraysEqual(map(words, word => word[0]), ['I', 'm', 'b', 'p', 'b', 'n', 'a', 'a']);
+
+module.exports = map;

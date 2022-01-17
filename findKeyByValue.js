@@ -27,3 +27,5 @@ const findKeyByValue = (object, value) => {
   return undefined;
 
 };
+
+module.exports = findKeyByValue;
