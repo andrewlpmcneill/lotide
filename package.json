@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@andrewlpmcneill/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "Clone of the Lodash library built for learning purposes",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/andrewlpmcneill/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew McNeill <andrew@andrewmc.ca> (andrewmc.ca)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/andrewlpmcneill/lotide/issues"

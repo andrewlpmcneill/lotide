@@ -1,25 +1,20 @@
-const output = [];
+const flatten = (array, output) => {
 
-const flatten = array => {
-
+  if (!output) {
+    output = [];
+  }
+  
   for (let i = 0; i < array.length; i++) {
 
     if (Array.isArray(array[i])) {
-
-      flatten(array[i]);
-
+      flatten(array[i], output);
     } else {
-
       output.push(array[i]);
-
     }
-
+  
   }
-
   return output;
 
 };
-
-console.log(flatten([1, 2, [3, [4, 'test', 'test2']], 5, [6]]));
 
 module.exports = flatten;
