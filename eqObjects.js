@@ -31,3 +31,13 @@ const eqObjects = (object1, object2) => {
 };
 
 module.exports = eqObjects;
+
+const obj1 = {
+  a: [2, [3, 4]]
+};
+
+const obj2 = {
+  a: [2, [3, 4]]
+};
+
+console.log(eqObjects(obj1, obj2));
